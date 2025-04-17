@@ -258,10 +258,10 @@ void core_callback_t_1ms(void)
 			
 			switch (app_regs.REG_MCA_SIGNAL_SELECT)
 			{
-				case MSK_MCA_FLOW0_X: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[0]; break;
-				case MSK_MCA_FLOW0_Y: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[1]; break;
-				case MSK_MCA_FLOW1_X: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[3]; break;
-				case MSK_MCA_FLOW1_Y: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[4]; break;
+				case MSK_MCA_DELTAX0: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[0]; break;
+				case MSK_MCA_DELTAY0: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[1]; break;
+				case MSK_MCA_DELTAX1: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[3]; break;
+				case MSK_MCA_DELTAY1: input = app_regs.REG_REG_OPTICAL_TRACKING_READ[4]; break;
 				default:              input = app_regs.REG_REG_OPTICAL_TRACKING_READ[0];
 			}
 			

@@ -183,9 +183,9 @@ typedef struct
 #define B_PULSE_VALVE1                     (1<<5)       // 
 #define GM_MCA_CONFIG                      7            // 
 #define MSK_MCA_OFF                        0            // 
-#define MSK_MCA_FLOW0_X                    1            // 
-#define MSK_MCA_FLOW0_Y                    2            // 
-#define MSK_MCA_FLOW1_X                    3            // 
-#define MSK_MCA_FLOW1_Y                    4            // 
+#define MSK_MCA_DELTAX0                    1            // 
+#define MSK_MCA_DELTAY0                    2            // 
+#define MSK_MCA_DELTAX1                    3            // 
+#define MSK_MCA_DELTAY1                    4            // 
 
 #endif /* _APP_REGS_H_ */
