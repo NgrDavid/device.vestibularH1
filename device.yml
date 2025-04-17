@@ -116,36 +116,36 @@ registers:
     description: The product ID of the optical flow sensor connected to Port 1.
   CountsPerInch:
     address: 49
-    access: Read
+    access: Write
     type: U16
     maxValue: 12000
     description: Configures the counts per inch of both channels for the PMW3360 with product ID equal to 66.  
   MotorControlSignalSelection:
     address: 50
-    access: Read
+    access: Write
     type: U8
     maskType: MotorControlInputSignalSelection
     description: Select which sensor and axis will be used as the input signal for the motion control algorithm (MCA).
   MotorControlSignalGain:
     address: 51
-    access: Read
+    access: Write
     type: Float
     description: Gain to be applied to the input signal.
   MotorControlZeroThreshold:
     address: 52
-    access: Read
+    access: Write
     type: Float
     description: Specifies deadband for conversion from speed delta to motor's immediate pulses in microseconds.
   MotorControlMaxPulseInterval:
     address: 53
-    access: Read
+    access: Write
     type: U16
     maxValue: 32000
     minValue: 102
     description: Specifies the maximum of the motor's pulse interval in microseconds.
   MotorControlMinPulseInterval:
     address: 54
-    access: Read
+    access: Write
     type: U16
     minValue: 100
     description: Specifies the minimum of the motor's pulse interval in microseconds.
