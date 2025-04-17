@@ -178,7 +178,7 @@ groupMasks:
     description: Specifies the input signal for the motor control algorithm.
     values:
       Disabled: {0, description: Used as a pure digital input.}
-      Flow0X: {1, description: Use flow meter 0, X axis.}
-      Flow0Y: {2, description: Use flow meter 0, Y axis.}
-      Flow1X: {3, description: Use flow meter 1, X axis.}
-      Flow1Y: {4, description: Use flow meter 1, Y axis.}
+      DeltaX0: {1, description: Use the optical flow displacement on axis X of port 0.}
+      DeltaY0: {2, description: Use the optical flow displacement on axis Y of port 0.}
+      DeltaX1: {3, description: Use the optical flow displacement on axis X of port 1.}
+      DeltaY1: {4, description: Use the optical flow displacement on axis Y of port 1.}
