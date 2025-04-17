@@ -104,16 +104,16 @@ registers:
       Flow1Squaç:
         offset: 0
         description: Signal quality of flow meter 1.
-  ProductIdPort0:
+  OpticalFlowPid0:
     address: 47
     access: Read
     type: U8
-    description: Contains de flow meter ID connected to Port 0.
-  ProductIdPort1:
+    description: The product ID of the optical flow sensor connected to Port 0.
+  OpticalFlowPid1:
     address: 48
     access: Read
     type: U8
-    description: Contains de flow meter ID connected to Port 1.
+    description: The product ID of the optical flow sensor connected to Port 1.
   CountsPerInch:
     address: 49
     access: Read
